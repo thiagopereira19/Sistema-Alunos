@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body>
     <div id="conteiner">
-        <h1 id="titulo">Novo Aluno</h1>
+        <h1 id="titulo">Formulario de Aluno</h1>
 
         <form action="adicionar.php" method="POST">
             <p>
