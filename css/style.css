@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, dodgerblue, white, dodgerblue);
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conteiner {
+    width: 90%;
+    max-width: 1000px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#titulo {
+    color: dodgerblue;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: gray;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: dodgerblue;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: aliceblue;
+}
+
+
+.Botão {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.editar {
+    background-color: rgb(55, 180, 17);
+}
+
+.editar:hover {
+    background-color: rgb(58, 138, 77);
+}
+
+.excluir {
+    background-color: rgb(185, 23, 36);
+}
+
+
+.excluir:hover {
+    background-color: rgb(139, 37, 37);
+}
+
+.adicionar {
+    background-color: rgb(33, 61, 189);
+}
+
+.adicionar:hover {
+    background-color: rgb(50, 50, 148);
+}
